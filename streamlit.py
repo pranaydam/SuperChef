@@ -28,7 +28,7 @@ def make_clickable(name, link):
 def main():
     image = Image.open("input/wordcloud.png").resize((680, 150))
     st.image(image)
-    st.markdown("# *What's Cooking? :cooking:*")
+    st.markdown("# *SuperChef :cooking:*")
 
    
     st.markdown(
